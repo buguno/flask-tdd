@@ -8,9 +8,9 @@ Criação do ambiente virtual com virtualenv:
 virtualenv -p python3 virtualenv_name
 ```
 
-Para ativar: ```source virtualenv_name\bin\activate```.
+Para ativar: ```source virtualenv_name\bin\activate```
 
-Para desativar: ```deactivate```.
+Para desativar: ```deactivate```
 
 ## Instalação das Dependências do Projeto
 

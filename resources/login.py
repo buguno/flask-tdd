@@ -10,6 +10,6 @@ class Login(Resource):
         password = bodyJson["data"]["password"]
 
         if username == "admin" and password == "flask":
-            return {"Menssagem": "Sucesso!"}
+            return {"menssagem": "sucesso!"}
         else:
-            return {"Menssagem": "Erro!"}
+            return {"menssagem": "erro!"}

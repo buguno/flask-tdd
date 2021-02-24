@@ -26,4 +26,4 @@ class FlaskTestCase(unittest.TestCase):
         response = self.app.post("/login", json=body_json)
         self.assertEqual(
             json.loads(response.data.decode("utf-8")),
-            {'Menssagem': 'Sucesso!'})
+            {'menssagem': 'sucesso!'})

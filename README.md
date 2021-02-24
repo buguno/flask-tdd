@@ -1,5 +1,19 @@
 # Flask TDD
 
+## Sobre
+
+```JSON
+{
+    "Linguagem": "🐍 Python",
+    "Framework": "⚗️ Flask",
+    "Testes": {
+        "Unidade": "Unittest",
+        "Integração": "",
+        "Cobertura de testes": "Coverage"
+    }
+}
+```
+
 ## Virtualenv
 
 Criação do ambiente virtual com virtualenv:

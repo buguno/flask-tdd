@@ -4,7 +4,7 @@ import unittest
 from app import app
 
 
-class TestFlaskApi(unittest.TestCase):
+class TestHome(unittest.TestCase):
     def setUp(self):
         self.app = app.test_client()
         self.response = self.app.get("/")

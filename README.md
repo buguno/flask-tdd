@@ -7,8 +7,7 @@
     "Linguagem": "🐍 Python",
     "Framework": "⚗️ Flask",
     "Testes": {
-        "Unidade": "Unittest",
-        "Integração": "",
+        "Unidade e Integração": "Unittest",
         "Cobertura de testes": "Coverage"
     }
 }

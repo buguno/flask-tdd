@@ -22,8 +22,8 @@ class FlaskTestCase(unittest.TestCase):
         self.assertEqual(response.status, "404 NOT FOUND")
 
     def test_login(self):
-        response = self.app.post(
-            "/login", json={"data": {"username": "admin", "password": "flask"}})
+        body_json = {"data": {"username": "admin", "password": "flask"}}
+        response = self.app.post("/login", json=body_json)
         self.assertEqual(
             json.loads(response.data.decode("utf-8")),
             {'Menssagem': 'Sucesso!'})

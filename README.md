@@ -18,7 +18,7 @@
 
 Criação do ambiente virtual com virtualenv:
 
-```
+```bash
 virtualenv -p python3 virtualenv_name
 ```
 
@@ -30,7 +30,7 @@ Para desativar: ```deactivate```
 
 Certifique-se que o ambiente virtual está ativado antes de instalar as dependências.
 
-```
+```bash
 pip install -r requirements.txt
 ```
 

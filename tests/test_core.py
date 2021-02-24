@@ -22,7 +22,8 @@ class FlaskTestCase(unittest.TestCase):
         self.assertEqual(response.status, "404 NOT FOUND")
 
     def test_login(self):
-        response = self.app.get("/login",)
+        response = self.app.post(
+            "/login", json={"data": {"username": "admin", "password": "flask"}})
         self.assertEqual(
             json.loads(response.data.decode("utf-8")),
-            {"message": "The method is not allowed for the requested URL."})
+            {'Menssagem': 'Sucesso!'})

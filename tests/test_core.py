@@ -7,11 +7,11 @@ from app import app
 class TestFlaskApi(unittest.TestCase):
     def setUp(self):
         self.app = app.test_client()
+        self.response = self.app.get("/")
 
     def test_hello_flask(self):
-        response = self.app.get("/")
-        self.assertEqual(json.loads(response.data.decode("utf-8")), {"hello": "Flask!"})
+        self.assertEqual(json.loads(
+            self.response.data.decode("utf-8")), {"hello": "Flask!"})
 
-
-if __name__ == "__main__":
-    unittest.main()
+    def test_content_type(self):
+        self.assertIn(self.response.content_type, "application/json")

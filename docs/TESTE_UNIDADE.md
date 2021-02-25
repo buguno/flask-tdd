@@ -22,7 +22,7 @@ OK
 
 ## Test suite
 
-Ou se preferir, podemos fazer um teste de tipo test suite, onde uma coleção de caso de teste.
+Ou se preferir, podemos fazer um teste de tipo test suite, onde é testada uma coleção de caso de teste.
 
 ```bash
 python -m unittest test_core.FlaskTestCase

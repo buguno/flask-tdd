@@ -10,7 +10,7 @@ Rodando o comando a seguir, é possível fazer um test case, que é uma unidade 
 python -m unittest test_core.FlaskTestLogin.test_login
 ```
 
-Onde a saída deverá ser algo como será mostrado abaixo:
+Onde a saída deverá ser algo como a mostrada abaixo:
 
 ```bash
 .
@@ -28,7 +28,7 @@ Ou se preferir, podemos fazer um teste de tipo test suite, onde é testada uma c
 python -m unittest test_core.FlaskTestCase
 ```
 
-Onde a saída deverá ser algo como será mostrado abaixo:
+Onde a saída deverá ser algo como a mostrada abaixo:
 
 ```bash
 ..

@@ -8,10 +8,11 @@ pip install coverage
 
 OBS: ```Ao fazer a instalação do requirements.txt o coverage será instalado.```
 
-Como o framework de testes de unidade usado é o unittest, o comando que será usado é:
+Como o framework de testes de unidade usado é o unittest, os comandos que serão usados são:
 
 ```bash
 coverage run -m unittest test_core
+coverage report
 ```
 
 Onde a saída deverá ser algo como a mostrada abaixo:

@@ -50,3 +50,5 @@ pip install -r requirements.txt
 [Testes Unitários com unittest - Testando uma Aplicação Flask](https://akiradev.netlify.app/posts/testes-unitarios/)
 
 [Unit testing framework](https://docs.python.org/3/library/unittest.html)
+
+[Coverage.py](https://coverage.readthedocs.io/en/coverage-5.4/)
